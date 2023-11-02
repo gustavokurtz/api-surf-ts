@@ -1,0 +1,22 @@
+{
+  "name": "curso-ts-yt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gustavo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.3",
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
+}
